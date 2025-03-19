@@ -1,0 +1,65 @@
+.table-container {
+  margin: 20px;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Search boxes container */
+.search-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+  align-items: center;
+}
+
+/* Dropdown and Search Box should be of same size */
+.search-box {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  width: 200px; /* Same size for both */
+}
+
+/* Dropdown for selecting batch */
+.dropdown {
+  background: white;
+  cursor: pointer;
+}
+
+/* Batch table */
+.batch-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.batch-table th, .batch-table td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+.batch-row {
+  transition: background 0.3s ease-in-out;
+}
+
+.batch-row:hover {
+  background: #f3f4f6;
+}
+
+/* Open button */
+.open-btn {
+  background: #2563EB;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background 0.3s ease-in-out;
+}
+
+.open-btn:hover {
+  background: #1D4ED8;
+}
